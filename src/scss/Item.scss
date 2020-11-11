@@ -1,0 +1,18 @@
+.item {
+  margin: 30px auto;
+  text-align: center;
+
+  &__title {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  &__cover {
+    margin: 20px 0;
+  }
+
+  &__overview {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}

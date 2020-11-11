@@ -1,0 +1,29 @@
+.films__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.films {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 30px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.film {
+  transition: transform 450ms;
+  &:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+  }
+}
+
+.ant-pagination {
+  margin-bottom: 20px;
+}
